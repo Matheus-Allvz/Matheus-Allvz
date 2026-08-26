@@ -44,16 +44,20 @@ def main():
                     if count > 0:
                         active_days.append((day["date"], count))
             
-            print(f"Syncing {len(active_days)} active days...")
+            print(f"Syncing {len(active_days)} active days with verified email normalaccont.matheus@gmail.com...")
             
-            subprocess.run(["git", "config", "user.name", "Matheus-Allvz"], check=True)
-            subprocess.run(["git", "config", "user.email", "workingaccount.matheus@gmail.com"], check=True)
+            subprocess.run(["git", "config", "user.name", "Matheus Alves"], check=True)
+            subprocess.run(["git", "config", "user.email", "normalaccont.matheus@gmail.com"], check=True)
             
             sync_file = "actuar-activity-sync.txt"
             
             for date_str, count in active_days:
                 commit_date = f"{date_str}T12:00:00"
                 env = os.environ.copy()
+                env["GIT_AUTHOR_NAME"] = "Matheus Alves"
+                env["GIT_COMMITTER_NAME"] = "Matheus Alves"
+                env["GIT_AUTHOR_EMAIL"] = "normalaccont.matheus@gmail.com"
+                env["GIT_COMMITTER_EMAIL"] = "normalaccont.matheus@gmail.com"
                 env["GIT_AUTHOR_DATE"] = commit_date
                 env["GIT_COMMITTER_DATE"] = commit_date
                 
@@ -67,7 +71,7 @@ def main():
                     check=False
                 )
                 
-            print("SUCCESS: Actuar contributions synced to local Git history!")
+            print("SUCCESS: All Actuar contributions committed with verified author email!")
             
     except Exception as e:
         print("Error syncing activity:", e)
