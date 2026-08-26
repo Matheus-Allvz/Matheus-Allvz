@@ -37,14 +37,27 @@ Criador do **Meppo** (suíte de automação que reduziu procedimentos operaciona
 ### 🧊 Calendário Isométrico de Commits (Full Year)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Matheus-Allvz/Matheus-Allvz/main/github-metrics/isocalendar.svg" alt="Isometric Commit Calendar" width="100%"/>
+  <img src="./github-metrics/isocalendar.svg" alt="Isometric Commit Calendar" width="100%"/>
 </p>
 
 ---
 
-### ⚡ Telemetria & Estatísticas de Desenvolvimento
+### ⚡ Telemetria & Hábitos de Desenvolvimento
 
-<div align="center">
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <h4>📊 Coding Habits & Rhythm</h4>
+      <img src="./github-metrics/habits.svg" alt="Coding Habits" width="100%"/>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <h4>🏆 Conquistas & Reconhecimentos</h4>
+      <img src="./github-metrics/achievements.svg" alt="Achievements" width="100%"/>
+    </td>
+  </tr>
+</table>
+
+<div align="center" style="margin-top: 15px;">
   <img src="https://github-readme-stats.vercel.app/api?username=Matheus-Allvz&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=080a10&title_color=00f2fe&text_color=f1f5f9&icon_color=00f2fe" height="165" alt="GitHub Stats" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Matheus-Allvz&theme=tokyonight&hide_border=true&background=080a10&ring=00f2fe&fire=00f2fe&currStreakLabel=00f2fe&stroke=00f2fe&sideNums=f1f5f9&sideLabels=94a3b8" height="165" alt="Streak Stats" />
 </div>
