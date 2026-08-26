@@ -1,0 +1,22 @@
+name: Sync Actuar Enterprise Contributions
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+      
+      - name: Sync Activity from Actuar account
+        uses: ksoichiro/activity-sync-action@v1
+        with:
+          source_user: "Matheus-Allvz-Actuar"
+          source_token: ${{ secrets.ACTUAR_TOKEN }}
+          target_user: "Matheus-Allvz"
+          target_token: ${{ secrets.METRICS_TOKEN }}
+          target_repo: "Matheus-Allvz/Matheus-Allvz"
+          target_branch: "actuar-activity-sync"
