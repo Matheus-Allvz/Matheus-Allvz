@@ -34,7 +34,7 @@ Criador do **Meppo** (suíte de automação que reduziu procedimentos operaciona
 
 ---
 
-### 🧊 Calendário Isométrico de Commits (Full Year)
+### 🧊 Calendário Isométrico de Commits (Full Year 3D)
 
 <p align="center">
   <img src="./github-metrics/isocalendar.svg" alt="Isometric Commit Calendar" width="100%"/>
@@ -42,25 +42,19 @@ Criador do **Meppo** (suíte de automação que reduziu procedimentos operaciona
 
 ---
 
-### ⚡ Telemetria & Hábitos de Desenvolvimento
+### 🐍 Gráfico Dinâmico de Contribuições (Snake Game)
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top" align="center">
-      <h4>📊 Coding Habits & Rhythm</h4>
-      <img src="./github-metrics/habits.svg" alt="Coding Habits" width="100%"/>
-    </td>
-    <td width="50%" valign="top" align="center">
-      <h4>🏆 Conquistas & Reconhecimentos</h4>
-      <img src="./github-metrics/achievements.svg" alt="Achievements" width="100%"/>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Matheus-Allvz/Matheus-Allvz/output/snake.svg" alt="Snake Animation" width="100%"/>
+</p>
 
-<div align="center" style="margin-top: 15px;">
-  <img src="https://github-readme-stats.vercel.app/api?username=Matheus-Allvz&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=080a10&title_color=00f2fe&text_color=f1f5f9&icon_color=00f2fe" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Matheus-Allvz&theme=tokyonight&hide_border=true&background=080a10&ring=00f2fe&fire=00f2fe&currStreakLabel=00f2fe&stroke=00f2fe&sideNums=f1f5f9&sideLabels=94a3b8" height="165" alt="Streak Stats" />
-</div>
+---
+
+### 📊 Telemetria de Repositórios & Linguagens
+
+<p align="center">
+  <img src="./github-metrics/traffic.svg" alt="Repositories & Languages Matrix" width="100%"/>
+</p>
 
 ---
 
