@@ -40,13 +40,6 @@ Criador do **Meppo** (suíte de automação que reduziu procedimentos operaciona
   <img src="./github-metrics/isocalendar.svg" alt="Isometric Commit Calendar" width="100%"/>
 </p>
 
----
-
-### 🐍 Gráfico Dinâmico de Contribuições (Snake Game)
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Matheus-Allvz/Matheus-Allvz/output/snake.svg" alt="Snake Animation" width="100%"/>
-</p>
 
 ---
 
