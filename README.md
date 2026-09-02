@@ -19,12 +19,11 @@
   <a href="https://wa.me/5562993123343"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a>
 </p>
 
-```text
-┌─────────────────────────┬─────────────────────────────┬─────────────────────────────┐
-│  🏆 5x TOP 1 ANALYST    │  🛡️ 14.75 / 15.0 RCA CERT   │  ⚡ 99.4% SPEED GAIN        │
-│  Actuar Ranking Geral   │  Arquitetura & Domínio      │  DataClean C# .NET 8 Engine │
-└─────────────────────────┴─────────────────────────────┴─────────────────────────────┘
-```
+<p align="center">
+  <img src="https://img.shields.io/badge/Ranking_Actuar-5x_Top_1_Analyst-D63A2F?style=for-the-badge&logo=target&logoColor=white" alt="Top 1"/>
+  <img src="https://img.shields.io/badge/Certifica%C3%A7%C3%A3o_T%C3%A9cnica-14.75_%2F_15.0-F59E0B?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Certification"/>
+  <img src="https://img.shields.io/badge/DataClean_Benchmark-99.4%25_Speed_Gain-00F2FE?style=for-the-badge&logo=c-sharp&logoColor=black" alt="DataClean"/>
+</p>
 
 ---
 
@@ -36,25 +35,6 @@ Na **Actuar**, construí uma evolução técnica consistente e acelerada:
 * 🏆 **Analista N1**: Eleito **5 vezes Analista Top 1** e **1 vez Top 2** no ranking geral de performance técnica e resolução em 8 meses.
 * 🛡️ **Analista N2**: Ponto focal de investigação e diagnóstico em código (**Root Cause Analysis**) para incidentes de alta complexidade em produção. Aprovado com **nota 14.75 / 15.0** na certificação técnica de arquitetura de regras de negócio.
 * 🚀 **Desenvolvedor C# Jr**: Atuação direta na sustentação e evolução de microsserviços, pipelines de higienização massiva de dados e engenharia de automação.
-
----
-
-### 🏛️ Arquitetura de Referência & Padrões
-
-```text
- [ HTTP Client / UI ] ──────────► [ ASP.NET Core 8 Web API ]
-                                            │
-               ┌────────────────────────────┴────────────────────────────┐
-               ▼                                                         ▼
-    [ Command Flow (CQRS) ]                                   [ Query Flow (Dapper) ]
-    ├── MediatR Command Handlers                              ├── Optimized SQL / CTEs
-    ├── FluentValidation Pipeline Behaviors                   ├── B-Tree Index Lookups
-    └── Domain Events & Outbox Pattern                        └── Read Models & Projections
-               │                                                         │
-               ├────────────────────────────┬────────────────────────────┤
-               ▼                            ▼                            ▼
-    [ PostgreSQL 16 (ACID) ]      [ RabbitMQ / MassTransit ]    [ Distributed Cache ]
-```
 
 ---
 
@@ -104,11 +84,7 @@ Na **Actuar**, construí uma evolução técnica consistente e acelerada:
 * Otimizou procedimentos operacionais de **6 minutos para poucos segundos** sem degradação de consistência.
 * Orquestração assíncrona de APIs REST, unificação de busca dinâmica e redução drástica de sobrecarga cognitiva.
 
-#### 3. 🛡️ [RCA Telemetry & Diagnostic Framework](https://www.linkedin.com/in/matheusallvz)
-> **Framework de Diagnóstico e Rastreamento de Causa Raiz**
-* Rastreabilidade e análise de causa raiz em microsserviços distribuídos, isolamento de condições de corrida (*race conditions*) e garantia de integridade transacional ACID.
-
-#### 4. 🧠 [Simuladores de Hardware & Arquitetura de Computadores](https://github.com/Matheus-Allvz/Cache-Simulator)
+#### 3. 🧠 [Simuladores de Hardware & Arquitetura de Computadores](https://github.com/Matheus-Allvz/Cache-Simulator)
 * **[Cache-Simulator](https://matheus-allvz.github.io/Cache-Simulator/)**: Simulador interativo da hierarquia de memória cache (L1, L2, L3) e CPU para análise de *hits/misses* e latência.
 * **[Pipeline-Simulator](https://github.com/Matheus-Allvz/Pipeline-Simulator)**: Simulador visual de instruções em pipeline de CPU (Fetch, Decode, Execute, Memory, Writeback) e tratamento de hazards estruturais e de dados.
 
